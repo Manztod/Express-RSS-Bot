@@ -1,0 +1,30 @@
+{
+  "name": "telegram-rss-bot-node",
+  "version": "1.0.0",
+  "description": "Realtime RSS → Telegram bot (fast Node.js version)",
+  "main": "src/bot.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/bot.js",
+    "dev": "nodemon src/bot.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "boxen": "^8.0.1",
+    "chalk": "^4.1.2",
+    "cheerio": "^1.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "gradient-string": "^3.0.0",
+    "node-telegram-bot-api": "^0.65.1",
+    "ora": "^9.0.0",
+    "p-limit": "^3.1.0",
+    "rss-parser": "^3.13.0",
+    "socket.io": "^4.6.1",
+    "strip-ansi": "^7.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
