@@ -2,7 +2,7 @@
 
 Bot Telegram yang efisien untuk memantau RSS Feed dari berbagai media berita Indonesia dan mengirimkan pembaruan secara real-time ke grup atau channel Telegram Anda.
 
-## 🚀 Fitur Utama
+## Fitur Utama
 
 - **Real-time Monitoring**: Memantau puluhan RSS feed berita populer Indonesia.
 - **Fast & Lightweight**: Dibangun dengan Node.js untuk performa yang cepat.
@@ -10,14 +10,14 @@ Bot Telegram yang efisien untuk memantau RSS Feed dari berbagai media berita Ind
 - **Dukungan Docker**: Siap untuk dideploy menggunakan Docker.
 - **Filter Berita Terbaru**: Hanya mengirimkan berita yang dipublikasikan dalam beberapa menit terakhir (default: 5 menit).
 
-## 📋 Prasyarat
+## Prasyarat
 
 Sebelum memulai, pastikan Anda telah memiliki:
 - **Node.js** (v16 atau lebih baru)
 - **Telegram Bot Token**: Dapatkan dari [@BotFather](https://t.me/botfather).
 - **Chat ID**: ID group atau channel tempat bot akan mengirim pesan.
 
-## ⚙️ Instalasi
+## Instalasi
 
 1. **Clone repository ini:**
    ```bash
@@ -36,7 +36,7 @@ Sebelum memulai, pastikan Anda telah memiliki:
    CHAT_ID=your_chat_id_here
    ```
 
-## 🚀 Menjalankan Bot
+## Menjalankan Bot
 
 ### Mode Pengembangan (Development)
 Menggunakan `nodemon` untuk restart otomatis saat ada perubahan kode:
@@ -49,7 +49,7 @@ npm run dev
 npm start
 ```
 
-## 🐳 Menggunakan Docker
+## Menggunakan Docker
 
 Anda juga dapat menjalankan bot ini menggunakan Docker:
 
@@ -63,12 +63,12 @@ Anda juga dapat menjalankan bot ini menggunakan Docker:
    docker run -d --env-file .env name telegram-rss-bot telegram-rss-bot
    ```
 
-## 📊 Dashboard Web
+## Dashboard Web
 
 Setelah bot berjalan, Anda dapat mengakses dashboard pemantauan melalui browser di:
 `http://localhost:3000` (atau port yang Anda tentukan di `.env`).
 
-## 🗞️ Daftar RSS Feed
+## Daftar RSS Feed
 
 Bot ini secara default dikonfigurasi untuk memantau berbagai media berita ternama seperti:
 - Tribunnews (Banyak region)
@@ -80,7 +80,7 @@ Bot ini secara default dikonfigurasi untuk memantau berbagai media berita ternam
 - Republika
 - Dan banyak lagi (Lihat `src/config.js` untuk daftar lengkap).
 
-## 🛠️ Konfigurasi Lanjutan
+## Konfigurasi Lanjutan
 
 Anda dapat menyesuaikan parameter bot di file `src/config.js`:
 - `RECENT_MINUTES`: Rentang waktu berita yang akan diambil.
