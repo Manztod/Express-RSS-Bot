@@ -34,7 +34,6 @@ Sebelum memulai, pastikan Anda telah memiliki:
    ```env
    TELEGRAM_TOKEN=your_bot_token_here
    CHAT_ID=your_chat_id_here
-   PORT=3000
    ```
 
 ## 🚀 Menjalankan Bot
