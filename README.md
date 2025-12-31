@@ -21,8 +21,7 @@ Sebelum memulai, pastikan Anda telah memiliki:
 
 1. **Clone repository ini:**
    ```bash
-   git clone <repository-url>
-   cd telegram-rss-bot-node
+   git clone https://github.com/Manztod/Express-RSS-Bot/tree/main
    ```
 
 2. **Instal dependensi:**
